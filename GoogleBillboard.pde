@@ -5,10 +5,16 @@ public void setup()
 }  
 public void draw()  
 {   
-	//not needed for this assignment
+	String s = e.substring(3,13);
+	double dNum = Double.parseDouble(s);
+	System.out.println(dNum);
 }  
 public boolean isPrime(double dNum)  
 {   
-    //to be finished later   
+    if (int i = 2; i<=Math.sqrt(dNum); i++)
+    {
+    	//if (dNum%i == 0)
+    	//	retrun false;
+    }
     return true;  
 } 
